@@ -1,0 +1,10 @@
+* {
+  padding: 0rem;
+  margin: 0rem;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+HTML {
+  scroll-behavior: smooth;
+  
+}

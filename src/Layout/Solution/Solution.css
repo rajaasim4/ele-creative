@@ -1,0 +1,156 @@
+.Solution {
+    width: 100%;
+    height: 568px;
+    /* background-color: purple; */
+    background-color: #1F202B;
+    padding: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+
+.Solution_right,
+.Solution_left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+
+}
+
+.Solution_left {
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.Solution_left span {
+    color: #40D7E1;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+
+    line-height: 20px;
+    letter-spacing: 1.2px;
+}
+
+.Solution_left h2 {
+    color: #FFFFFF;
+    font-family: "Roboto", Sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.Solution_left p {
+    color: #FFFFFF;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.Solution_Bars {
+    height: 40%;
+    width: 100%;
+    /* background-color: red; */
+}
+
+.Solution_Bars label {
+    color: white;
+
+}
+
+.Solution_Bars_outer {
+    width: 100%;
+    border-radius: 15px;
+    background-color: mediumaquamarine;
+    background-color: #FFFFFF1C;
+    height: 15px;
+    margin-top: 8px;
+}
+
+.Solution_Bars_inner {
+    height: 15px;
+    border-radius: 15px;
+    width: 70%;
+    /* background-color: orange; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.Solution_Bars_inner span {
+    color: white;
+    font-size: 14px;
+}
+
+.Solution_right {
+
+    justify-content: center;
+    align-items: center;
+}
+
+.Solution_right img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+
+}
+
+.Solution_img {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 0px;
+
+}
+
+.Solution_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.Solution_img1 {
+    left: 40%;
+
+}
+
+.Solution_img2 {
+    right: 20%;
+}
+
+@media screen and (max-width:1024px) {
+    .Solution {
+        padding: 20px;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .Solution {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .Solution_right,
+    .Solution_left {
+        width: 95%;
+    }
+    .Solution_img1{
+        left: 0;
+        top: 50%;
+        
+    }
+    .Solution_img2{
+        right: 0;
+    }
+}
+@media screen and (max-width:426px) {
+.Solution_img{
+    display: none;
+}
+.Solution_left{
+    margin-bottom: 30px;
+}
+}

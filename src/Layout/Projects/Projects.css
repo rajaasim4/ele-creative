@@ -1,0 +1,71 @@
+.Projects {
+  background-color: #1f202b;
+  height: 804px;
+  width: 100%;
+  padding: 80px;
+}
+
+.Projects_heading {
+  width: 50%;
+  height: 100px;
+  /* background-color: fuchsia; */
+  margin: auto;
+  text-align: center;
+}
+
+.Projects_heading span {
+  color: #40d7e1;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 1.2px;
+}
+.Projects_heading h2 {
+  color: #ffffff;
+  font-family: "Roboto", Sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 48px;
+}
+.Projects_main {
+  width: 100%;
+  height: 90%;
+  /* background-color: orange; */
+  padding-top: 30px;
+}
+.Projects_sub {
+  width: 100%;
+  height: 476px;
+  /* background-color: purple; */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.Projects_sub img {
+  width: 100%;
+  height: 80%;
+  object-fit: fill;
+}
+.Projects_sub h2 {
+  font-family: "Montserrat", Sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: white;
+}
+.Projects_sub span {
+  font-family: "Montserrat", Sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: gray;
+}
+@media screen and (max-width: 1024px) {
+  .Projects {
+    padding: 10px;
+  }
+  .Projects_heading {
+    height: auto;
+    width: 100%;
+  }
+}

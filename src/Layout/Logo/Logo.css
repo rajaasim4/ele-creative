@@ -1,0 +1,34 @@
+.Logo{
+    height: 250px;
+    background-color: #1F202B;
+    /* background-color: red; */
+    width: 100%;
+    padding: 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.Logo_sub{
+    width: 24%;
+    height: 100%;
+    /* background-color: orange; */
+}
+.Logo_sub img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+@media screen and (max-width:1024px){
+    .Logo{
+        padding: 10px;
+        height: 100%;
+        flex-wrap: wrap;
+    }
+    .Logo_sub{
+        width: 30%;
+    }
+}
+@media screen and (max-width:426px){
+    .Logo_sub {
+        width: 45%;
+    }
+}

@@ -1,0 +1,284 @@
+.Pricing {
+    background-color: #1F202B;
+    background-image: url('../../Assests/pricing_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 1600px;
+    padding: 80px 80px;
+}
+
+.Pricing_top {
+    width: 80%;
+    height: 50%;
+    /* background-color: orange; */
+    margin: auto;
+    padding-top: 65px;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Pricing_image {
+    width: 200px;
+    height: 400px;
+    position: absolute;
+    top: -70px;
+    left: 40px;
+    z-index: -1;
+
+}
+
+.Pricing_image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+
+}
+
+.Pricing_Cards {
+    height: 654px;
+    width: 45%;
+    background-color: white;
+    border-radius: 50px;
+    z-index: 99999;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 25px;
+}
+
+.Pricing_Cards img {
+    width: 30%;
+    height: 30%;
+    object-fit: contain;
+}
+
+.Pricing_Cards h4 {
+    color: #1F202B;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+.Pricing_Cards p {
+    color: #1F202B;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 26px;
+}
+
+.Pricing_Cards h2 {
+    font-family: "Montserrat", Sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 54px;
+
+}
+
+.Pricing_Cards h2 span {
+    font-size: 25px;
+
+}
+
+.Pricing_Cards ul {
+    height: 200px;
+    width: 80%;
+    /* background-color: red; */
+    list-style: none;
+}
+
+.Pricing_Cards ul li {
+    width: 80%;
+    height: 40px;
+    /* background-color: orange; */
+    /* padding-left: 20px; */
+}
+
+.Pricing_Cards ul li span {
+    font-size: 20px
+}
+
+.Pricing_Cards a {
+    font-family: "Montserrat", Sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+
+    line-height: 20px;
+    background-color: #1F202B;
+    border: 1px solid #1F202B;
+    border-radius: 14px 14px 14px 14px;
+    color: white;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    transition: 0.3s linear;
+}
+
+.Pricing_Cards a:hover {
+    color: #1F202B;
+    background-color: white;
+}
+
+.Pricing_bottom {
+    width: 100%;
+    height: 45%;
+    /* background-color: darkorchid; */
+    display: flex;
+    margin-top: 50px;
+
+}
+
+.Pricing_right_heading {
+    width: 100%;
+    padding: 10px 20px;
+    /* background-color: rgb(175, 142, 188); */
+}
+
+.Pricing_bottom_left,
+.Pricing_bottom_right {
+    width: 50%;
+    height: 100%;
+}
+.Pricing_bottom_left{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+
+.Pricing_left_Card{
+    height: 271px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    border-radius: 14px;
+}
+.Pricing_left_Card img{
+    width: 40%;
+    height: 30%;
+    object-fit: contain;
+
+}
+.Pricing_left_Card h4{
+    color: #FFFFFF;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 22px;
+}
+.Pricing_left_Card p{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+.Pricing_bottom_right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Pricing_bottom_right .Pricing_right_heading span {
+    color: #40D7E1;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 1.2px;
+}
+
+.Pricing_bottom_right .Pricing_right_heading h2 {
+    color: #FFFFFF;
+    font-family: "Roboto", Sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.Pricing_bottom_right img {
+    width: 80%;
+    height: 78%;
+    object-fit: contain;
+}
+
+@media screen and (max-width:1024px) {
+    .Pricing {
+        padding: 10px;
+        height: 100%
+    }
+
+    .Pricing_top {
+        width: 95%;
+    }
+    .Pricing_bottom{
+        flex-direction:column;
+    }
+    .Pricing_bottom_left,.Pricing_bottom_right{
+        width: 95%;
+        margin-top: 20px;
+    }
+    
+    .Pricing_right_heading{
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .Pricing_heading {
+        height: 10%;
+    }
+
+    .Pricing_Cards a {
+        width: 240px;
+    }
+
+    .Pricing_Cards ul {
+        width: 100%;
+    }
+    .Pricing_left_Card{
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width:426px) {
+    .Pricing_top {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .Pricing_Cards {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .Pricing_image {
+
+        display: none;
+
+    }
+
+    .Pricing_Cards ul li {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width:376px) {
+    .Pricing_Cards a {
+        width: 200px;
+    }
+}
