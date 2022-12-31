@@ -255,7 +255,7 @@
     }
 }
 
-@media screen and (max-width:426px) {
+@media  (width<=540px) {
     .Pricing_top {
         flex-direction: column;
         height: 100%;
